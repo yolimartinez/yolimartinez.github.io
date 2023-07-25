@@ -68,7 +68,7 @@ h3:first-of-type {
   color: black;
 }
 .proud {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .bio a {
@@ -150,7 +150,7 @@ a:hover {
   font-size: 1.5rem;
   color:black;
   margin: 0;
-  padding: 0.5rem 0.7rem 1rem 0.7rem;
+  padding: 0.5rem 1rem 1rem 1rem;
   font-weight: 600;
 }
 .visual {
