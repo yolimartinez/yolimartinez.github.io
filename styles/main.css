@@ -91,9 +91,6 @@ a, a:hover, a:visited {
 .proud strong a {
   color: white;
 }
-.workSamples {
-  padding: 2rem;
-}
 
 .contact {
   background-color: white;
@@ -141,6 +138,10 @@ a:hover {
   margin: 0;
 }
 
+.workSamples {
+  padding: 0;
+}
+
 .selectedWork {
   margin-bottom: 2rem;
 }
@@ -149,7 +150,7 @@ a:hover {
   font-size: 1.5rem;
   color:black;
   margin: 0;
-  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem 0.7rem 1rem 0.7rem;
   font-weight: 600;
 }
 .visual {
@@ -159,7 +160,7 @@ a:hover {
 }
 .storyDesc {
   border-radius: 0 0 1rem 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   color: black;
 }
 
@@ -229,7 +230,9 @@ footer {
   .vizDiv .selectedWork:last-of-type {
     margin-left: 1rem;
   }
-
+  .workSamples {
+    padding: 2rem;
+  }
   .selectedWork  {
     flex: 1 1 0;
     width: 0; 
