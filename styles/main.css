@@ -42,8 +42,8 @@ h1 {
 .proud h2 {
   color: #FFE3C2;
   mix-blend-mode: exclusion;
-  font-size: 1rem;
-  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  margin-top: 0;
 }
 .proud h3 {
   color: #FFE3C2;
@@ -63,10 +63,10 @@ h3:first-of-type {
   padding: 2rem 2rem 0 2rem;
 }
 
-.mainDes h2 {
+/* .mainDes h2 {
   margin: 1.5rem 0 1rem 0;
   color: black;
-}
+} */
 .proud {
   margin: 1.5rem;
 }
@@ -98,6 +98,7 @@ a, a:hover, a:visited {
   color: black;
   margin: 0 -2rem 2rem -2rem;
   padding: 1rem 2rem 1.5rem 2rem;
+  border-top: 1px dotted black;
 }
 
 .contact p {
@@ -105,10 +106,13 @@ a, a:hover, a:visited {
 }
 
 .social {
-  margin: 0.2rem auto;
+  margin: 0.5rem auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 0;
+  gap: 2rem;
+  padding-left: 1rem;
+  font-weight: 900;
 }
 
 .social a, .social a:visited {
@@ -139,7 +143,7 @@ a:hover {
 }
 
 .workSamples {
-  padding: 0;
+  padding: 1.5rem;
 }
 
 .selectedWork {
@@ -217,7 +221,7 @@ footer {
   }
   .proud {
     flex: 2 1 0;
-    padding: 0 0 0 3rem;
+    padding: 2rem 0 0 3rem;
     margin: 0;
   }
   .vizDiv {
