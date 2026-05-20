@@ -28,12 +28,11 @@
 
 <body>
   <main>
-
-    <header>
-      <h1>Yoli Martinez</h1>
-      <h2>frontend and data viz engineer</h2>
-    </header>
     <section class="introBox">
+      <header>
+        <h1>Yoli Martinez</h1>
+        <h2>frontend and data viz engineer</h2>
+      </header>
       <section class="bio">
         <p>Hi, I'm an engineer building newsroom products for national and local outlets. I was most recently
           at The Washington Post, building AI-based tools for reporters. I've worked in a variety of newsrooms and also
@@ -47,13 +46,12 @@
           gmail [dot] com, schedule some time to chat via my <a href="https://calendly.com/yoli-martinez"
             target="_blank">Calendly</a> or check out my <a href="https://www.linkedin.com/in/yolandamartinez2"
             target="_blank">LinkedIn</a>.</p>
+        <p>I am also excited to be part of the 2026 <a href="https://nahj.org/adelante-academy/" target="_blank">NAHJ Adelante Leadership Academy</a>. I plan to share more about my fellowship project here, so stayed tuned!</p>
       </section>
     </section>
 
-
-
+    <h2>select projects</h2>
     <section class="workSamples">
-      <h2>select projects</h2>
       <div class="vizDiv">
         <a href="https://www.thedownload.news/neighborhoods/holiday-gift-guide-2025-special-gift-picks-along-the-15/"
           target="_blank" aria-label="Visit the story page (opens in a new window)">
@@ -61,22 +59,40 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Philly Download</h4>
-                <h3>Holiday Gift Guide</h3>
+                <!-- <h3>Holiday Gift Guide</h3> -->
               </div>
-              <img src="./assets/gifs/giftguide.gif"
+              <img src="./assets/gifs/phillygiftguide.gif"
                 alt="screenshot of locator map displaying business along the transit line" />
             </div>
             <div class="storyDesc">
               <p>Working off existing maps, designed and created labels highligting business and transit stops in
                 Philadelphia as part of a gift guide package. Each web map also had an accompanying
                 social-first promo used as both the feature image in stories and in social video.</p>
-              <div class="tools">
-                <p>Design | Figma | Social</p>
-              </div>
+              <p class="tools">Design | Figma | Social</p>
             </div>
           </div>
         </a>
       </div>
+
+      <div class="vizDiv">
+        <a href="https://www.axios.com/2024/08/20/washington-post-ai-tool-data"
+          target="_blank" aria-label="Visit an Axios article about the tool">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">The Washington Post</h4>
+              </div>
+              <img src="./assets/haystacker.png"
+                alt="a gif of screenshots from the haystacker tool" />
+            </div>
+            <div class="storyDesc">
+              <p>Part of a team that built the UI for Haystacker, an internal AI tool used to swift through large amounts of video data. My work focused on updating the repo to use internal design systems, integrated a state management library, refactored from Pages to App Router, and added component testing. Separately, I designed and prioritzied loading states, search UX and dynamic routing.</p>
+              <p class="tools">NextJS | Rest API | AI | Frontend</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
 
       <div class="vizDiv">
         <a href="https://19thnews.org/" target="_blank" aria-label="Visit the story page (opens in a new window)">
@@ -84,72 +100,17 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The 19th News</h4>
-                <h3>Newsletter Sign-ups</h3>
               </div>
-              <img src="./assets/gifs/signup.gif"
+              <img src="./assets/signup.png"
                 alt="a screenshot of both error and success messaging for newsletter signup" />
             </div>
             <div class="storyDesc">
-              <p>Implemented a success and error state redesign for newsletter sign-ups. Changes had to account for a
-                component that appears in multiple locations with specific design specs for each. The
-                submitted state was determined by the result of a validation step that was also tracked with Google Tag
-                Manager.</p>
-              <div class="tools">
-                <p>Wordpress | Twig | PHP | GTM</p>
-              </div>
+              <p>Implemented success and error state functionality for a newsletter sign-up redesign. Changes had to account for a component that appears in multiple locations with specific design specs for each. The submitted state was determined by the result of a validation step that was also tracked with Google Tag Manager.</p>
+              <p class="tools">Wordpress | Twig | PHP | GTM</p>
             </div>
           </div>
         </a>
       </div>
-
-      <div class="vizDiv">
-        <a href="https://19thnews.org/newsletters/daily/" target="_blank"
-          aria-label="Visit the story page (opens in a new window)">
-          <div class="selectedWork">
-            <div class="image">
-              <div class="visual">
-                <h4 class="publisher">The 19th News</h4>
-                <h3>Newsletter Landing Page</h3>
-              </div>
-              <img src="./assets/newsletter.png" alt="screenshot of the 19th new's main newsletter singup page" />
-            </div>
-            <div class="storyDesc">
-              <p>Working along side a designer and product manager, broke up the redesign of newsletter landing pages
-                into
-                three MVPs. The work involved ACF refactors, Google Tag Manager tracking as well as conditional
-                rendering
-                for mobile/desktop layout differences. </p>
-              <div class="tools">
-                <p>Wordpress | Twig | PHP | ACF | GTM</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="vizDiv">
-        <a href="https://eltecolote.org/content/en/sf-rv-crackdown-weaponized-parking/#first-head" target="_blank"
-          aria-label="Visit the story page (opens in a new window)">
-          <div class="selectedWork">
-            <div class="image">
-              <div class="visual">
-                <h4 class="publisher">El Tecolote</h4>
-                <h3>S.F. is weaponizing parking rules</h3>
-              </div>
-              <img src="./assets/teco_rv.png" alt="a screenshot the article" />
-            </div>
-            <div class="storyDesc">
-              <p>Designed and created the layout, navigation and interactive elements for a year's long award-winning
-                investigative story looking into how the city of San Francisco's changing policies around RV parking
-                affect a Latinx community. </p>
-              <div class="tools">
-                <p>Design | HTML | CSS | Javascript</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
 
       <div class="vizDiv">
         <a href="https://www.washingtonpost.com/investigations/interactive/2022/fatal-police-shootings-unreported/"
@@ -158,7 +119,7 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Washington Post</h4>
-                <h3>Unaccounted Police Shootings</h3>
+                <!-- <h3>Unaccounted Police Shootings</h3> -->
               </div>
               <img src="./assets/unreported.png"
                 alt="screenshot of table showing police shootings reported by law enforcement" />
@@ -168,84 +129,7 @@
                 or
                 department. Collaborated with editors to tackle design challenges: making the UX minimal and clear while
                 fitting long and sometimes repetitive department names in limited real estate. </p>
-              <div class="tools">
-                <p>React | Design | Interactive</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="vizDiv">
-        <a href="https://www.sfchronicle.com/projects/2021/census-california/" target="_blank"
-          aria-label="Visit the story page (opens in a new window)">
-          <div class="selectedWork">
-            <div class="image">
-              <div class="visual">
-                <h4 class="publisher">Hearst Newspapers</h4>
-                <h3>How your state changed in the last decade</h3>
-              </div>
-              <img src="./assets/census.png"
-                alt="a screenshot of a map with a data table showing demographic changes" />
-            </div>
-            <div class="storyDesc">
-              <p>In connection with the release of decennial census data, this multi-newspaper project showed readers
-                how
-                demographics changed in both their neighborhood and in areas across the country. The design and build
-                allowed for each Hearst publication to customize the default comparison point and toppers.</p>
-              <div class="tools">
-                <p>Mapbox | React | D3 | Design | Node</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-
-      <div class="vizDiv">
-        <a href="https://www.ctpost.com/projects/2021/connecticut-home-apartment-guide/" target="_blank"
-          aria-label="Visit the story page (opens in a new window)">
-          <div class="selectedWork">
-            <div class="image">
-              <div class="visual">
-                <h4 class="publisher">Hearst Newspapers</h4>
-                <h3>Where to Live (Neighborhood Guide)</h3>
-              </div>
-              <img src="./assets/neighborhood.png"
-                alt="a screenshot of a table showing census data for a neighborhood" />
-            </div>
-            <div class="storyDesc">
-              <p>A series of neighborhood guides that also feature census and education data. The key to this project
-                was
-                creating easy-to-use templates for both developers and editors, so new guides could be created by other
-                Hearst newspaper publications.</p>
-              <div class="tools">
-                <p>Design | React | Mapbox | Data wrangling</p>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="vizDiv">
-        <a href="https://www.houstonchronicle.com/projects/2021/how-houston-floods/" target="_blank"
-          aria-label="Visit the story page (opens in a new window)">
-          <div class="selectedWork">
-            <div class="image">
-              <div class="visual">
-                <h4 class="publisher">Houston Chronicle</h4>
-                <h3>How Houston Floods</h3>
-              </div>
-              <img src="./assets/houstonflood.jpg"
-                alt="a screenshot showing the top image and headline of a Houston Chronicle article" />
-            </div>
-            <div class="storyDesc">
-              <p>A project that looks at infrastructure and zoning problems that contribute to Houston's flooding.
-                Working
-                closely with the newsroom's photo, graphics and data team we created an award-winning explainer that
-                continues to be a piece the newsroom and readers turn to during inclement weather.</p>
-              <div class="tools">
-                <p>React | Design | Project Management</p>
+              <p class="tools">React | Design | Interactive</p>
               </div>
             </div>
           </div>
@@ -259,17 +143,16 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">San Antonio Express-News</h4>
-                <h3>Off the Chart</h3>
+                <!-- <h3>Off the Chart</h3> -->
               </div>
-              <img src="./assets/gifs/offthechart.gif"
+              <img src="./assets/offthechart.png"
                 alt="a screenshot showing two line charts for episiotomy and cesarean rates" />
             </div>
             <div class="storyDesc">
               <p>This multi-part project had one key anchor, a searchable database of episiotomy and cesarean rates for
                 all hospitals in Texas from 2016-2019. The series easily toggles from English to Spanish, including the
                 full searchable database, graphics and captions.</p>
-              <div class="tools">
-                <p>React | D3 | Interactive | Design</p>
+              <p class="tools">React | D3 | Interactive | Design</p>
               </div>
             </div>
           </div>
@@ -283,16 +166,13 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Wall Street Journal</h4>
-                <h3>Corporate Debt, Distress and More Borrowing</h3>
+                <!-- <h3>Corporate Debt, Distress and More Borrowing</h3> -->
               </div>
               <img src="./assets/bonds.png" alt="a screenshot of a bubble chart showing corporate bond rates" />
             </div>
             <div class="storyDesc">
-              <p>A scrolly timeline that looked back at the role the Federal Reserve played in stabilizing the corporate
-                bond market followed by the skyrocketing yield required by investors to buy those bonds during a
-                tumultuous time at the start of the pandemic.</p>
-              <div class="tools">
-                <p>D3 | ai2html | Waypoints | Design | Data wrangling</p>
+              <p>A set of data visualiations that explored the role the Federal Reserve played in stabilizing the corporate bond markets at a time of skyrocketing yields at the start of the pandemic. It included a scolly timeline that broke down extra yield required by investors each week and a scatterplot showing how energy-sector bonds demanded even higher returns.</p>
+              <p class="tools">D3 | ai2html | Waypoints | Design | Data wrangling</p>
               </div>
             </div>
           </div>
@@ -306,7 +186,7 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Wall Street Journal</h4>
-                <h3>New Budget? No Budget? Maybe You Need a Bit of Both</h3>
+                <!-- <h3>New Budget? No Budget? Maybe You Need a Bit of Both</h3> -->
               </div>
               <img src="./assets/budget.png"
                 alt="a screenshot of an illustration of a woman doing financial planning" />
@@ -316,13 +196,13 @@
                 the
                 budgeting system that could work for them. An exciting part of this project was working closely with the
                 reporter and designer as we figured out how different responses should affect the final result.</p>
-              <div class="tools">
-                <p>JQuery | Interactive | Project Planning </p>
+              <p class="tools">JQuery | Interactive | Project Planning </p>
               </div>
             </div>
           </div>
         </a>
       </div>
+
 
       <div class="vizDiv">
         <a href="https://www.themarshallproject.org/2018/05/20/sending-even-more-immigrants-to-prison" target="_blank"
@@ -331,7 +211,7 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Marshall Project</h4>
-                <h3>Sending Even More Immigrants to Prison</h3>
+                <!-- <h3>Sending Even More Immigrants to Prison</h3> -->
               </div>
               <img src="./assets/immigration.png"
                 alt="a screenshot of a line chart showing prison sentences for immigration offenses" />
@@ -343,8 +223,28 @@
                 prison sentences. I wrote about the process of cleaning, analyzing and visualizing the data for <a
                   href="https://source.opennews.org/articles/how-we-made-sending-even-more-immigrants-prison/"
                   target="_blank">OpenNews' Source</a>.</p>
-              <div class="tools">
-                <p>Reporting | D3 | ai2html | Data wrangling </p>
+              <p class="tools">Reporting | D3 | ai2html | Data wrangling </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="vizDiv">
+        <a href="https://19thnews.org/newsletters/daily/" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">The 19th News</h4>
+              </div>
+              <img src="./assets/newsletter.png" alt="screenshot of the 19th new's main newsletter singup page" />
+            </div>
+            <div class="storyDesc">
+              <p>Working along side a designer and product manager, broke up the redesign of newsletter landing pages
+                into three functional MVPs. The work involved ACF refactors, Google Tag Manager tracking as well as conditional rendering for mobile/desktop layout differences. </p>
+              <p class="tools">Wordpress | Twig | PHP | ACF | GTM</p>
               </div>
             </div>
           </div>
@@ -352,23 +252,106 @@
       </div>
 
       <div class="vizDiv">
-        <a href="https://www.themarshallproject.org/2018/10/24/when-you-re-the-only-cop-in-town" target="_blank"
+        <a href="https://eltecolote.org/content/en/sf-rv-crackdown-weaponized-parking/#first-head" target="_blank"
           aria-label="Visit the story page (opens in a new window)">
           <div class="selectedWork">
             <div class="image">
               <div class="visual">
-                <h4 class="publisher">The Marshall Project</h4>
-                <h3>When You're the Only Cop in Town</h3>
+                <h4 class="publisher">El Tecolote</h4>
               </div>
-              <img src="./assets/solocop.png" alt="a screenshot of the top image and headline for a solo cop story" />
+              <img src="./assets/teco_rv.png" alt="a screenshot the article" />
             </div>
             <div class="storyDesc">
-              <p>A months-long reporting project that involved calling hundreds of police departments to find towns with
-                only one police officer. As the fentanyl crisis was starting to take root and school shootings were
-                increasing, the story featured officers in three remote locations to document how they dealt with these
-                rising issues.</p>
-              <div class="tools">
-                <p>Reporting | Project Management | Photo Editing | Writing </p>
+              <p>Designed and created the layout, navigation and interactive elements for a year's long award-winning
+                investigative story looking into how the city of San Francisco's changing policies around RV parking
+                affect a Latinx community. </p>
+              <p class="tools">Design | HTML | CSS | Javascript</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="vizDiv">
+        <a href="https://www.thedownload.news/civics-and-society/in-philadelphia-the-fine-for-a-ski-mask-matches-the-fine-for-breaking-ethics-laws/" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">The Philly Download</h4>
+              </div>
+              <img src="./assets/ethics.png"
+                alt="a chart showing the cost of ethics violations" />
+            </div>
+            <div class="storyDesc">
+              <p>Collected data on fines levied by the Philadelphia Board of Ethics against local city official. The data showed that most fines get reduced to the point where ethics violations cost less than a ski mask fine. Graphics for social were also incorporated and shared.</p>
+              <p class="tools"> Design | Figma | Social | Data Reporting</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="vizDiv">
+        <a href="https://www.ctpost.com/projects/2021/connecticut-home-apartment-guide/" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">Hearst Newspapers</h4>
+                <!-- <h3>Where to Live (Neighborhood Guide)</h3> -->
+              </div>
+              <img src="./assets/neighborhood.png"
+                alt="a screenshot of a table showing census data for a neighborhood" />
+            </div>
+            <div class="storyDesc">
+              <p>A series of neighborhood guides that also feature census and education data. The key to this project
+                was
+                creating easy-to-use templates for both developers and editors, so new guides could be created by other
+                Hearst newspaper publications.</p>
+              <p class="tools">Design | React | Mapbox | Data wrangling</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="vizDiv">
+        <a href="https://www.sfchronicle.com/projects/2021/census-california/" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">Hearst Newspapers</h4>
+              </div>
+              <img src="./assets/census.png"
+                alt="a screenshot of a map with a data table showing demographic changes" />
+            </div>
+            <div class="storyDesc">
+              <p>In connection with the release of decennial census data, this multi-newspaper project showed readers
+                how demographics changed in both their neighborhood and in areas across the country. The design and build allowed for each Hearst publication to customize the default comparison point and toppers.</p>
+              <p class="tools">Mapbox | React | D3 | Design | Node</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="vizDiv">
+        <a href="https://www.houstonchronicle.com/projects/2021/how-houston-floods/" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">Houston Chronicle</h4>
+              </div>
+              <img src="./assets/houstonflood.jpg"
+                alt="a screenshot showing the top image and headline of a Houston Chronicle article" />
+            </div>
+            <div class="storyDesc">
+              <p>A project that looks at infrastructure and zoning problems that contribute to Houston's flooding.
+                Working closely with the newsroom's photo, graphics and data team we created an award-winning explainer that continues to be a piece the newsroom and readers turn to during inclement weather.</p>
+              <p class="tools">React | Design | Project Management</p>
               </div>
             </div>
           </div>
@@ -383,7 +366,7 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Marshall Project</h4>
-                <h3>Funds that are suppose to help crime victims can hurt black families</h3>
+                <!-- <h3>Funds that are suppose to help crime victims can hurt black families</h3> -->
               </div>
               <img src="./assets/victims.png" alt="a screenshot of column charts showing crime victim outcomes" />
             </div>
@@ -391,8 +374,7 @@
               <p>The goal for this story was to create visualizations that helped drive home the main point in the
                 investigation: how the amount of financial support for crime victims correlated with the race of those
                 asking for help.</p>
-              <div class="tools">
-                <p>D3 | ai2html | Design </p>
+              <p class="tools">D3 | ai2html | Design </p>
               </div>
             </div>
           </div>
@@ -405,7 +387,7 @@
             <div class="image">
               <div class="visual">
                 <h4 class="publisher">The Marshall Project</h4>
-                <h3>Diversity Report</h3>
+                <!-- <h3>Diversity Report</h3> -->
               </div>
               <img src="./assets/diversity.png"
                 alt="a screenshot of column charts showing demographic makeup of newsroom" />
@@ -415,8 +397,29 @@
                 appearance at NAHJ and started a non-profit mixer at NICAR and IRE that still continues to this day. I'm
                 most proud of advocating for the publication of The Marshall Project's first diversity report for which
                 I also helped with goal setting and editing.</p>
-              <div class="tools">
-                <p>Advocate | Editing | Goal Setting </p>
+              <p class="tools">Advocate | Editing | Goal Setting </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="vizDiv">
+        <a href="https://www.themarshallproject.org/2018/10/24/when-you-re-the-only-cop-in-town" target="_blank"
+          aria-label="Visit the story page (opens in a new window)">
+          <div class="selectedWork">
+            <div class="image">
+              <div class="visual">
+                <h4 class="publisher">The Marshall Project</h4>
+              </div>
+              <img src="./assets/solocop.png" alt="a screenshot of the top image and headline for a solo cop story" />
+            </div>
+            <div class="storyDesc">
+              <p>A months-long reporting project that involved calling hundreds of police departments to find towns with
+                only one police officer. As the fentanyl crisis was starting to take root and school shootings were
+                increasing, the story featured officers in three remote locations to document how they dealt with these
+                rising issues.</p>
+              <p class="tools">Reporting | Project Management | Photo Editing | Writing </p>
               </div>
             </div>
           </div>

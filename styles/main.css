@@ -12,7 +12,7 @@ main {
 }
 
 p {
-  line-height: 1.4rem;
+  line-height: 1.3rem;
   font-size: 0.9rem;
 }
 
@@ -39,7 +39,6 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
   color: #B34C42;
   margin: 0;
   font-weight: 600;
@@ -63,17 +62,17 @@ a:hover {
   text-decoration: none;
 }
 
-.vizDiv p {
-  margin: 0;
-}
-
 .selectedWork {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border: 1px dashed #94615C;
   border-radius: 5px;
   box-shadow: 5px 10px #EDEDED;
   transition: all 0.3s ease;
-  padding-top: 1rem;
+  padding: 0.75rem 1rem 1rem 1rem;
+}
+
+.storyDesc p:first-of-type {
+  margin-bottom: 0.5rem;
 }
 
 .selectedWork:hover {
@@ -82,62 +81,30 @@ a:hover {
   box-shadow: 6px 11px #DEDEDE;
 }
 
-
-.visual {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* padding-top: 1rem; */
-  text-align: center;
-  /* border-radius: 0.5rem 0.5rem 0 0; */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-
-}
-
 .publisher {
   color: #734B47;
   background: #F0F0F0;
   display: inline-block;
-  padding: 0.4rem;
+  padding: 0.4rem 0.5rem;
   margin: 0 auto;
   border-radius: 0.25rem;
   font-size: 0.8rem;
   font-weight: 400;
 }
 
-
-.visual h3 {
-  font-weight: 700;
-}
-
-.storyDesc {
-  border-radius: 0 0 0.5rem 0.5rem;
-  padding: 1.5rem;
-  color: black;
-}
-
 .selectedWork img {
   width: 100%;
-  margin-bottom: -0.3rem;
 }
 
-.selectedWork .material-symbols-outlined {
-  /* position: absolute; */
-  display: inline-block;
-  bottom: 10px;
-  right: 10px;
-  /* color: red; */
-  background: #FAFAFA;
-  border-radius: 5px;
-  padding: 10px;
+.visual {
+  margin-bottom: 0.75rem;
+  text-align:center;
 }
 
-.tools p {
+.tools {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  margin: 0.5rem auto;
+  margin: 0;
   font-size: 0.7rem;
   font-weight: 400;
   color: #734B47;
@@ -150,7 +117,15 @@ footer {
 @media (min-width: 900px) {
   main {
     width: 90%;
+    margin-top: 5rem;
+  }
+
+  .introBox, .proud {
     max-width: 750px;
+    margin: 0 auto 5rem;
+  }
+
+  .proud {
     margin-top: 5rem;
   }
 
@@ -158,42 +133,13 @@ footer {
     font-size: 3.5rem;
   }
 
-  p {
-    line-height: 1.6rem;
-    font-size: 1rem;
+  .workSamples {
+    columns: 2;
+    column-gap: 3rem;
   }
 
   .vizDiv {
-    display: flex;
-    margin-bottom: 2rem;
-  }
-
-  .selectedWork {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    justify-content: space-around;
-    padding: 1.5rem 1rem;
-  }
-
-  .selectedWork>* {
-    flex: 1;
-
-  }
-
-  .visual {
-    margin-bottom: 1.2rem;
-    padding-top: 0;
-  }
-
-
-  .storyDesc {
-    padding: 0;
-  }
-
-  .tools p {
-    text-align: start;
-
+    break-inside: avoid;
   }
 
 }
